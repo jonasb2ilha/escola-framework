@@ -20,7 +20,7 @@
         "symfony/var-dumper": "^3.4",
         "illuminate/database": "^5.5",
         "georde/geosan": "^2.0",
-        "phpmailer/phpmailer": "^6.0",
+        "phpmailer/phpmailer": "^6.0"
     }
    
 }
