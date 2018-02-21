@@ -4,7 +4,7 @@
     "license": "MIT",
     "type": "project",
     "authors": [
-        {"name": "Jonas Gomes", "email": "jonas.gomesb2@outlook.com"}
+        {"name": "Jonas Gomes", "email": "jonas.gomes@outlook.com"}
     ],
     "autoload": {
         "psr-4": {
