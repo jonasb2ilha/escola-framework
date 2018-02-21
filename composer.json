@@ -2,6 +2,7 @@
     "name": "jonasb2ilha/microframework",
     "description": "My-framework MVC",
     "license": "MIT",
+    "minimum-stability": "dev",
     "type": "project",
     "authors": [
         {"name": "Jonas Gomes", "email": "jonas.gomes@outlook.com"}

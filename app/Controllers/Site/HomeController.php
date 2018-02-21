@@ -10,7 +10,7 @@ class HomeController extends BaseController {
 	 * @return view home site
 	 */
 	public function index(){
-		return $this->view('home/home', true, [
+		return $this->view('site/home', true, [
 			'title'	=> 'Home'
 		]);
 	}
