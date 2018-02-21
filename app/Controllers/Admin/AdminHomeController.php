@@ -13,7 +13,6 @@ class AdminHomeController extends BaseController
 	 * @var title page
 	 */
 	public function index() {  
-		$teste = 'teste';
         return $this->view('admin/home', true, [
         	'title'		=> 'Login', 
         ]);
