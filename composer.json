@@ -2,7 +2,10 @@
     "name": "jonasb2ilha/microframework",
     "description": "My-framework MVC",
     "license": "MIT",
+    "version": "1.0",
     "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": "true",
     "authors": [
         {"name": "Jonas Gomes", "email": "jonas.gomes@outlook.com"}
     ],
@@ -20,6 +23,5 @@
         "georde/geosan": "^2.0",
         "phpmailer/phpmailer": "^6.0"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": "true"
+    
 }
