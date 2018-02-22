@@ -1,11 +1,14 @@
 {
     "name": "jonasb2ilha/microframework",
-    "description": "My-framework MVC",
-    "license": "MIT",
-    "version": "1.0",
+    "description" : "Mini framework estudo",
     "type": "project",
-    "minimum-stability": "dev",
-    "prefer-stable": "true",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonas Gomes", 
+            "email": "jonas.gomes@outlook.com" 
+        }
+    ],
      "require": {
         "php": ">=5.4",
         "symfony/var-dumper": "^3.4",
@@ -13,6 +16,8 @@
         "georde/geosan": "^2.0",
         "phpmailer/phpmailer": "^6.0"
     },
+    "minimum-stability": "dev",
+    "version": "1.0",
     "autoload": {
         "psr-4": {
             "App\\": "app/",
@@ -20,18 +25,9 @@
         },
         "files":["functions/helpers/helper.php"]
     },
-    "authors": [
-        {
-            "name": "Jonas Gomes", 
-            "email": "jonas.gomes@outlook.com"
-        }
-    ],
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
         "optimize-autoloader": true
     }
-    
-   
-    
 }
