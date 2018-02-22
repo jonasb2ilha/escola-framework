@@ -4,7 +4,7 @@
     "license": "MIT",
     "version": "1.0",
     "type": "project",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": "true",
     "authors": [
         {"name": "Jonas Gomes", "email": "jonas.gomes@outlook.com"}
