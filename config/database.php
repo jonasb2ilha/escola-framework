@@ -11,7 +11,7 @@ return [
     ],
     'mysql' => [
         'host' => 'localhost',
-        'database' => 'blogs',
+        'database' => 'framework',
         'user' => 'root',
         'pass' => '',
         'charset' => 'utf8',

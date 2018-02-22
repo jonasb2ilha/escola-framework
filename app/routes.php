@@ -5,7 +5,7 @@ $conf = load_config('app');
 
 
 /*ROUTES DO SITE*/
-$route[] = ['/', 			'Site\HomeController@index'];
+$route[] = ['/', 			'WelcomeController@index'];
 
 
 /* ROUTES LOGIN */

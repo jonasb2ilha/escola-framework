@@ -43,7 +43,7 @@ class AuthController {
 
 					/*	DELETA TENTATIVAS ERRADAS */
 					LoginAttempt::where('user_id', '=', $this->user->id)->delete();
-					
+						
 					/*	LOGIN DE USUÁRIO COMUM */
 					if ($this->user->role == 1)
 						return $this->loggedInUser();
